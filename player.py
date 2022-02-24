@@ -1,7 +1,7 @@
 from turtle import Turtle
 
 STARTING_POSITION = (0, -280)
-MOVE_DISTANCE = 20
+MOVE_DISTANCE = 15
 FINISH_LINE_Y = 280
 NORTH = 90
 
@@ -16,7 +16,6 @@ class Player(Turtle):
         self.setheading(NORTH)
         self.goto(STARTING_POSITION[0], STARTING_POSITION[1])
         self.speed("fastest")
-        self.shapesize(0.9)
 
     def move_up(self):
         self.forward(MOVE_DISTANCE)

@@ -35,4 +35,6 @@ while game_is_on:
 
     screen.update()
 
+print("Game Over")
+scoreboard.game_over(player1.score)
 screen.exitonclick()
